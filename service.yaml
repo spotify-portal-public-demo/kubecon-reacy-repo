@@ -1,0 +1,4 @@
+service:
+  name: kubecon-reacy-app
+  owner: group:default/kubecon-squad
+  environment: development

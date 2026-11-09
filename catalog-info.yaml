@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kubecon-reacy-app
+  title: kubecon-reacy-app
+  description: Created with Spotify Portal at KubeCon
+  annotations:
+    github.com/project-slug: spotify-portal-public-demo/kubecon-reacy-repo
+    backstage.io/source-location: url:https://github.com/spotify-portal-public-demo/kubecon-reacy-repo
+  tags:
+    - kubecon
+    - scaffolder-demo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/kubecon-squad
